@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="utf-8">
+      <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/style.css" />
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="js/scroll.js"> </script>
+        	<script src="js/contact.js"> </script>
+            
+    </head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Hash Code</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://hashcode.withgoogle.com/signup.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="contentwrapper ">
+      <div class="forms ">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-4  topcontact contactborderstylesleft  ">
+              <div class="contentwrapper">
+                <h2>Address</h2>
+                  <img src="images/address.png" alt="1" />
+                    <p class="contactstyle"><a href="#map">National college of Ireland mayor street IFSC dublin 1 Dublin </a> </p>
+              </div>
+            </div>
+
+            <div class="col-md-4  ">
+              <div class="contentwrapper">
+                <h2>Phone</h2>
+                  <a onclick=phone(); href="tel:+353894324726">
+                    <img src="images/phone.png" alt="2" />
+                  </a>
+                  <p class="contactstyle">Feel free to contact us at any stage throughout the day for a free consultation at <a onclick=phone(); href="tel:+353894324726">+353894324726</a>
+                  </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 bottomcontact  contactborderstylesright">
+              <div class="contentwrapper borderstylesleft  toprightstyle">
+                <h2>Email</h2>
+                  <a onclick=email(); href="mailto:x17114357@student.ncirl.ie">
+                    <img src="images/email.png" alt="3" />  </a>
+                    <p class="contactstyle">  Or if you can't talk to us on the phone, email us and we will contact you within 24 hours and we can arrange a free consultation at
+                     <a onclick=email(); href="mailto:x17114357@student.ncirl.ie" target="_top">gauravsavanur07@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+      <script>
+        $("body").fadeOut();
+          $("body").fadeIn();
+      </script>
+
+        <div class="wrapper">
+          <div class="contentwrapper">
+            <div class="container ">
+              <div class="formwrapper">
+                <div class="abouttext">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="container">
+                        <div class="formmain">
+                          <div class="contactform">
+                            <h2>Or drop us a quick message</h2>
+                              <form>
+                                <hr>
+                                  <label for="name">Name:</label>
+                                    <div class="form-group fields">
+                                      <input type="text" name="name" class="form-control" placeholder="Your name here."
+                                    </div>
+                                    <label for="email">Email:</label>
+                                      <div class="form-group fields">
+                                        <input type="email" name="email" class="form-control" placeholder="Your email here.">
+                                      </div>
+                                          <div class= "message">
+                                            <label for="message">Message:</label>
+                                              <div class="form-group" >
+                                                <input type="text" name="message" id = message class="form-control" placeholder="Your message here.">
+                                              </div>
+                                              <div class="submitbutton">
+                                                <a href="contact.html" class="btn btn-primary btn-lg formbutton" type = "submit"> <h4>Submit</h4></a>
+                                              </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                            <div class="col-md-6">
+                                <div id="map" style="width:100%;height:700px">
+                                  <script>
+                                      function myMap() {
+                                        var mapCanvas = document.getElementById("map");
+                                          var mapOptions = {
+                                            center: new google.maps.LatLng(53.34881739999999,-6.243179300000065),
+                                              zoom: 11
+                                          };
+                                          var map = new google.maps.Map(mapCanvas, mapOptions);
+                                        }
+                                        </script>
+                                        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  <div class="footerstyling">
+                    <div class="container">
+                      <footer id="copyrighticon">
+                        
+                      <div class = "gsicon">
+                        <a href=""> copyright© 2017</a>
+                      </div>
+                     </footer>
+                    </div>
+                  </div>
+
+              
+                   
+</body>
+</html>
+

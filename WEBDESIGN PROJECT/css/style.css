@@ -1,0 +1,406 @@
+p{
+  color: #3c3c3c;
+  padding: 2em;
+}
+.navaar-brand a{
+  color: white;
+  text-decoration: none;
+}
+.navbar-brand a:hover{
+  color: #3c3c3c;
+}
+.navbar-toggle{
+    color: white;
+}
+.navbar-toggle:hover{
+    color: #3c3c3c;
+}
+
+.navbar-inverse .navbar-nav  li  a{
+  color: #3c3c3c;
+
+}
+
+.navbar-inverse .navbar-nav  li  a:hover{
+  color: #3c3c3c;
+}
+
+
+.jumbotron{
+  background-color: rgba(75, 75, 75, 0);
+  min-height: 600px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.jumbotron{
+  text-align: center;
+}
+.contentwrapper{
+  text-align: center;
+  padding: 3em 0em;
+}
+
+.imagesforabout{
+  margin: 0 auto;
+}
+
+.col-md-4{
+  background: white;
+}
+
+.centerofdiv{
+  background:white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin: 3em 0em;
+}
+
+.footerstyling{
+  background: #333333;
+  color: white;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.contentwrapper .container .abouttext{
+  background:white;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin: 3em 0;
+  border-radius: 25px;
+}
+
+.contactstyle{
+  text-align: left;
+}
+
+.contentwrapper .container .abouttext .images{
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.contentwrapper .container .abouttext p{
+  padding-bottom: 5em;
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 6em;
+
+}
+
+.contentwrapper .container .abouttext h2 {
+padding-top: 1em;
+  text-align: center;
+
+}
+
+.contentwrapper .servicestext{
+  background:white;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin: 3em 0;
+  border-radius: 25px;
+
+}
+
+.contentwrapper .servicestext .images{
+    vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+
+  }
+
+.contentwrapper .servicestext p{
+
+  padding-bottom: 5em;
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 0em;
+
+}
+
+.contentwrapper .servicestext h2 {
+padding-top: 1em;
+  text-align: center;
+
+}
+
+
+.textheading{
+    height: 111px;
+}
+
+.aboutstyling{
+  border-radius: 25px;
+  padding-right: 10em;
+  padding-bottom: 5em;
+  float: right;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+  color: #3c3c3c;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #3c3c3c;
+
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: #0a0a0a;
+
+   font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #0a0a0a;
+
+     font-weight: bold;
+}
+
+.jumbobutton{
+  padding-top: 25em;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+
+}
+
+.jumbotron p {
+    font-size: 21px;
+    font-weight: 200;
+    padding: 2em;
+    color: white;
+    background-color: rgba(75, 75, 75, 0.9);
+    border-radius: 25px;
+}
+.contentwrapper p{
+  font-size: 21px;
+  font-weight: 200;
+
+}
+p{
+  padding-bottom: 20px;
+}
+body{
+
+  background-color: #e6e6e6;
+  display: none;
+}
+footer{
+		font-family: tahoma, sans-serif;
+		text-align: center;
+		padding: 20px;
+    display: inline-block;
+    margin: 3em;
+}
+
+footer a , footer a:last-child {
+	background: white;
+	color: black;
+  display: inline-block;
+
+	padding: 10px 0;
+	border-radius: 35px;
+	text-align: center;
+	margin-right: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  text-decoration: none;
+}
+
+footer .pagetop a{
+ width: 80px;
+
+}
+
+.pagetop, .gsicon{
+  display: inline-block;
+}
+
+footer .gsicon a{
+ width: 300px;
+
+}
+
+
+footer a:hover {
+  text-decoration: none;
+  color:white;
+	background: black;
+   font-weight: bold;
+}
+
+.forms{
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+    border-radius: 25px;
+
+}
+.text-centre{
+  text-align: center;
+}
+.aboutinfo{
+  text-align: center;
+  margin-left: 70px;
+  padding-left: 1em;
+}
+
+.contentwrapper  a{
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: #3c3c3c;
+}
+.servicesbox{
+  height: 600px;
+}
+.servicesboxheight{
+  height: 120px;
+}
+
+
+.borderstylesright{
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.borderstylesleft{
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+
+
+
+@media screen and (max-width:991px) {
+  .borders {
+  border-radius: 25px;
+  }
+}
+
+  .topcontact{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+
+  .bottomcontact{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  @media screen and (max-width:1301px) {
+    .toprightstyle{
+      border-top-right-radius: 25px;
+    }
+	}
+
+.contactborderstylesright{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+.contactborderstylesleft{
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  }
+
+.btn-primary,.btn-primary:visited,.btn-primary:active  {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #4f4f4f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #444;
+    border-color: #4f4f4f;
+}
+
+hr{
+margin-top:-5px
+}
+
+.contactform{
+  background-color: white;
+  text-align:center;
+  height: 630px;
+  width:450px;
+  padding:0 50px 15px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-shadow:0 0 15px;
+  border-radius:16px;
+  float:left;
+  padding-left: 40px;
+  margin-top: 80px;
+}
+
+.contactform label{
+margin-right: 400px;
+}
+
+input[type="email"] , input[type="text"] {
+margin-top:5px;
+height:40px;
+margin-bottom:25px;
+padding:5px;
+border:3px solid #2BC1F2
+}
+
+input {
+     line-height: 21.5;
+     height:30px
+}
+
+#message{
+  padding-bottom: 70px;
+  height:100px;
+}
+
+.formbutton {
+    color: #fff;
+    background-color: #2BC1F2;
+    border-color: #2a9bf1;
+}
+
+.formbutton:visited {
+    color: #fff;
+    background-color: #2BC1F2;
+    border-color: #2a9bf1;
+}
+
+.formbutton:active {
+    color: #fff;
+    background-color: #2BC1F2;
+    border-color: #2a9bf1;
+}
+
+.formbutton:hover {
+  color: #fff;
+  background-color: #27a7d1;
+  border-color: #2397bc;
+}
+
+.formbutton h4 {
+ color: white;
+ font-weight: bold;
+}
+
+.submitbutton{
+padding-left: 2em;
+}
+
+.gmap{
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+#map{
+  margin: 0 auto;
+  padding-top: 6em;
+}

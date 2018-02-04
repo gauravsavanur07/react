@@ -1,0 +1,48 @@
+.wrapper{
+  height:900px;
+  width:960px;
+  background:green;
+
+}
+.header{
+background-color: :green
+width:100%;
+height:15%;
+}
+.tleft{
+  width:50%;
+  height:100%;
+  color:white;
+}
+.tright{
+  width:50%;
+  height:100%;
+  color:blue;
+  float:right;
+}
+.main{
+  width:100%;
+  height:85%;
+  color:#fff;
+
+
+
+}
+.mright{
+  width:33.33%;
+  height:100%;
+  float:right;
+
+}
+.mcentre{
+  widht:33.33%;
+  height:100%;
+  float:left;
+
+}
+.mleft{
+  width:33.333%;
+  height:100%;
+  float:left;
+
+}
