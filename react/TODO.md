@@ -1,0 +1,4 @@
+- [ ] wait for chai-enzyme to upgrade to enzyme 2.x
+- [ ] keep looking at https://github.com/facebook/react/issues/2982, discuss possible use cases
+- [ ] do not update redbox-react, it seems to be broken
+- [ ] add custom validation function for Player's children (provides required API)

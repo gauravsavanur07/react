@@ -1,0 +1,32 @@
+.board-square {
+  position: relative;
+  size: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  size: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.neutral {
+  composes: overlay;
+}
+
+.red {
+  composes: overlay;
+  background-color: red;
+}
+
+.yellow {
+  composes: overlay;
+  background-color: yellow;
+}
+
+.green {
+  composes: overlay;
+  background-color: green;
+}

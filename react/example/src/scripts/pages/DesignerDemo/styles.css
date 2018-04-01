@@ -1,0 +1,3 @@
+.designer-demo {
+  composes: box from "styles/layout";
+}

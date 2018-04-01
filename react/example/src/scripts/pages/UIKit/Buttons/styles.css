@@ -1,0 +1,11 @@
+.button-demo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 2em;
+  list-style: none;
+
+  & > li {
+    margin: 1.4em;
+  }
+}

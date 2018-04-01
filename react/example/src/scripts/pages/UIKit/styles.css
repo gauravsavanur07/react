@@ -1,0 +1,16 @@
+.root {
+  background-color: #222;
+  display: flex;
+  width: 100vw;
+}
+
+.navigation {
+  width: 12em;
+  height: 100vh;
+  list-style: none;
+}
+
+.content {
+  padding: 2em;
+  width: 100%;
+}

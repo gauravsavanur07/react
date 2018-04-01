@@ -1,0 +1,14 @@
+.filter {
+  position: absolute;
+}
+
+.normal {
+  composes: filter;
+  opacity: 1;
+}
+
+.dragging {
+  composes: filter;
+  height: 0;
+  opacity: 0;
+}

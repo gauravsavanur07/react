@@ -1,0 +1,5 @@
+.layer {
+  position: relative;
+  size: 640px 480px;
+  border: 1px solid #000;
+}

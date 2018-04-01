@@ -1,0 +1,4 @@
+.dnd-layer-demo {
+  composes: box from "styles/layout";
+  background-color: #000;
+}

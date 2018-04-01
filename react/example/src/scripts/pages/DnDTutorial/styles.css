@@ -1,0 +1,7 @@
+:root {
+}
+
+.dnd-tutorial {
+  composes: box from "styles/layout";
+  background-color: #222;
+}

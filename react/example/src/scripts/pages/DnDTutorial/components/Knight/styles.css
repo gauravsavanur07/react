@@ -1,0 +1,30 @@
+:root {
+}
+
+.knight {
+}
+
+.normal {
+  composes: knight;
+  font-size: 3em;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.dragging {
+  composes: knight;
+  opacity: 0.5;
+  font-size: 4em;
+  font-weight: bold;
+  cursor: move;
+}
+
+.preview {
+}
+
+.smth {
+  font-size: 2em;
+}

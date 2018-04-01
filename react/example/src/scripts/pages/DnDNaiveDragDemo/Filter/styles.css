@@ -1,0 +1,40 @@
+:root {
+}
+
+.filter {
+  position: absolute;
+  border: 1px dashed gray;
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+
+.normal {
+  composes: filter;
+  cursor: grab;
+
+  &:hover {
+    color: #fafafa;
+    border: 1px dashed #111;
+    background-color: #444;
+  }
+}
+
+.dragging {
+  composes: filter;
+  cursor: grabbing;
+  background-color: #fff;
+  color: #fff;
+}
+
+.id {
+}
+
+.handle {
+  font-size: 2rem;
+  color: darkred;
+
+  &:hover {
+    color: red;
+    font-weight: bold;
+  }
+}
